@@ -292,8 +292,7 @@ body {
   }
   .card:first-of-type .card__image,
   .card:last-of-type .card__image {
-    width: 85%;
-    background-color:red;
+    width: 85%;    
     margin-left: 7rem;
   }
   .card:nth-child(2) .card__description-wrapper {
