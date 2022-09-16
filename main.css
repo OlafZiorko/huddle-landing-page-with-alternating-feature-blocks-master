@@ -236,7 +236,7 @@ body {
   .page__header {
     background-color: var(--clr-100);
     background-size: contain;
-    padding: 3.5rem 4.5rem 0 4rem;
+    padding: 3.5rem 4.5rem 0.7rem 4rem;
   }
   .logo__wrapper {
     width: 13rem;
@@ -252,10 +252,11 @@ body {
     text-align: left;
     align-items: center;
     padding-bottom: 3rem;
+    padding-top: 1rem;
     gap: 0;
   }
   .hero__content {
-    padding-top: 4.5rem;
+    padding-top: 2rem;
   }
   .hero-image {
     width: 110%;
@@ -263,7 +264,7 @@ body {
     left: -2.9rem;
   }
   .page__title {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     padding-right: 8rem;
   }
   .page__description {
@@ -324,6 +325,7 @@ body {
   /*===== FOOTER =====*/
   .page__footer {
     padding: 8rem 7rem;
+    padding-bottom: 4.5rem;
   }
   .footer__logo img {
     width: 9.5rem;
